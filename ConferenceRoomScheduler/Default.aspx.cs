@@ -56,9 +56,7 @@ namespace ConferenceRoomScheduler
                 {
                     Debug.Text = "Avaliable!";
                     //adding some additional meta text
-                    Debug.Text = "testing";
-                    //adding some additional meta text
-                    Debug.Text = "testing";
+                    
                 }
                 //else if the day and time is occupied, we will send user to next avaliable day/time
                 else
