@@ -33,9 +33,7 @@ namespace ConferenceRoomScheduler
         //view all scheduled times for a specific Date
         //Prompt for Users name to schedule requested time under
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        protected void Submit_Click(object sender, EventArgs e)
+       protected void Submit_Click(object sender, EventArgs e)
         {
             //first we take the users selected values and pass them into a sql cmd string to be used later
             string userInputCmd = string.Format("select Day, Time1 from DayTime where Day = '{0}' and Time1 = '{1}';", Calendar.SelectedDate.ToString(), TimeFrame.SelectedValue.ToString() + ":00");
